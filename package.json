@@ -1,0 +1,37 @@
+{
+	"name": "emojinvaders",
+	"version": "0.0.0",
+	"license": "MIT",
+	"bin": "index.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"start": "nodemon -q --no-colors --no-stdin index.js"
+	},
+	"dependencies": {
+		"import-jsx": "^4.0.0",
+		"ink": "^3.0.0-0",
+		"iohook": "^0.6.5",
+		"keypress": "^0.2.1",
+		"react": "^16.13.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4",
+		"prettier": "^2.0.5"
+	},
+	"iohook": {
+		"targets": [
+			"node-72"
+		],
+		"platforms": [
+			"win32",
+			"darwin",
+			"linux"
+		],
+		"arches": [
+			"x64",
+			"ia32"
+		]
+	}
+}
